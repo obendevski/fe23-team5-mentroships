@@ -1,0 +1,37 @@
+#imageGallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+#imageGallery img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.widgetTags {
+  display: flex;
+  width: auto;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.linkStyle {
+  background-color: lightcoral;
+  border-radius: 10%;
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
