@@ -15,9 +15,9 @@ export class Main extends React.Component<{}, State> {
   }
 
   componentDidMount() {
-    fetch(`https://jsonplaceholder.typicode.com/posts`)
-      .then((res) => res.json())
-      .then((json: PostType[]) => this.setState({ data: json }));
+    fetch(`https://jsonplaceholder.typicode.com/posts`).then((res) =>
+      res.json()
+    );
   }
 
   public render() {
